@@ -54,6 +54,16 @@ export function Footer() {
                   {site.phoneDisplay}
                 </a>
               </li>
+              <li>
+                <a href={site.emailHref} className="hover:text-brass-400">
+                  {site.email}
+                </a>
+              </li>
+              <li>
+                <a href={site.secondaryEmailHref} className="hover:text-brass-400">
+                  {site.secondaryEmail}
+                </a>
+              </li>
               <li>{site.location}, USA</li>
               <li>
                 <Link href="/contact" className="font-medium text-brass-400 hover:text-brass-300">
